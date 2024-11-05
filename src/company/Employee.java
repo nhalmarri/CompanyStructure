@@ -11,9 +11,6 @@ public class Employee {
         this.salary = salary;
     }
 
-// Getters and setters for name, department, and salary
-
-
     public String getName() {
         return name;
     }

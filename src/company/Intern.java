@@ -8,7 +8,13 @@ public class Intern extends Employee {
         this.university = university;
     }
 
-    // Getter and setter for university
+    public String getUniversity() {
+        return university;
+    }
+
+    public void setUniversity(String university) {
+        this.university = university;
+    }
 
     @Override
     public String toString() {

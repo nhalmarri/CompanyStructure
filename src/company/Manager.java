@@ -8,7 +8,13 @@ public class Manager extends Employee {
         this.teamSize = teamSize;
     }
 
-    // Getter and setter for teamSize
+    public int getTeamSize() {
+        return teamSize;
+    }
+
+    public void setTeamSize(int teamSize) {
+        this.teamSize = teamSize;
+    }
 
     @Override
     public String toString() {
