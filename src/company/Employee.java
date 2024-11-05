@@ -37,6 +37,6 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee: " + name + ", Department: " + department + ", Salary: " + salary;
+        return "\n ============== Employee: ============== \n"+" Name: " + name + " Department: " + department + "  Salary: " + salary +"\n";
     }
 }

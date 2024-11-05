@@ -18,6 +18,6 @@ public class Intern extends Employee {
 
     @Override
     public String toString() {
-        return super.toString() + ", University: " + university;
+        return super.toString() + " University: " + university;
     }
 }
